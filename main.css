@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+main{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input, button{
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+input[type="text"]{
+    font-size: 24px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mensagem{
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button{
+    background-color: #4cd137;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 32px;
+    padding-block: 8px;
+}
+
+button:hover{
+    background-color: #338226;
+}
+
+.informacoes{
+    font-size: 24px;
+}
+
+.sucesso{
+    color: green;
+}
+
+.erro{
+    color: orangered;
+}
+    
